@@ -6,6 +6,7 @@ import Navigation from "./src/navigation";
 import WatchlistProvider from "./src/Contexts/WatchlistContext";
 import { RecoilRoot } from 'recoil'
 import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
+import 'expo-dev-client';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -21,7 +22,7 @@ export default function App() {
     <NavigationContainer
       theme={{
         colors: {
-          background: "#121212",
+          background: "#12141A",
         },
       }}
     >
@@ -40,7 +41,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#121212",
+    backgroundColor: "#12141A",
     paddingTop: 50,
   },
 });

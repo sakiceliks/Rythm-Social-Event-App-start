@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "notJust Crypto Tracker",
-    "slug": "notJustCryptoTracker",
+    "name": "Sultan Kuyumcusu",
+    "slug": "sultanKuyumcusu",
     "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +18,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.notJust.cryptoTracker",
+      "bundleIdentifier": "com.sakic.sultanKuyumcusu",
       "buildNumber": "7"
     },
     "android": {
-      "package": "com.notJust.cryptotracker",
+      "package": "com.sakic.sultanKuyumcusu",
       "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
@@ -31,6 +31,11 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49c28417-3a50-4f9a-95c1-e9523c38de9e"
+      }
     }
   }
 }
